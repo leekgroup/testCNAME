@@ -1,0 +1,15 @@
+---
+output:
+  html_document:
+    toc: false
+    theme: spacelab
+---
+
+Test transfer ownership
+=======================
+
+The goal of this repo is to test that you can transfer ownership of a repository (call it `myRepo`) that has a `gh-pages` branch currently live at `http://myDomain/myRepo/`. In this specific case, we are talking about [lcolladotor.github.io/testCNAME/](http://lcolladotor.github.io/testCNAME/).
+
+When we transfer ownership, we still want the html to be viewable from `http://myDomain/myRepo/`, which should be doable by adding a CNAME file according to [setting up a custom domain with github pages](https://help.github.com/articles/setting-up-a-custom-domain-with-github-pages/).
+
+Date this page was last modified: `r Sys.time()`.
